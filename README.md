@@ -66,13 +66,24 @@ The dataset was built from experimental data on anaerobic digestion of brewery r
 
 ## Results
 
-The models showed solid predictive capability, especially after hyperparameter tuning:
+## Results
 
-- **Biogas production model**: highest predictive performance  
-- **VS removal model**: moderate accuracy  
-- **Methane content model**: more variable performance  
+After hyperparameter tuning, the models achieved:
 
-These results reflect the inherent complexity and variability of anaerobic digestion systems.
+- Biogas production:
+  - R² = 0.75
+  - RMSE = 97.44
+  - MAE = 61.03
+
+- VS removal:
+  - R² = 0.60
+  - RMSE = 11.00
+  - MAE = 6.88
+
+- Methane content:
+  - R² ≈ 0.68
+  - RMSE ≈ 5.02
+  - MAE ≈ 2.91
 
 ---
 
