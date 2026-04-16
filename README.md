@@ -1,6 +1,11 @@
 # Biogas Production Prediction using Machine Learning (Random Forest)
 
+> This project demonstrates the application of machine learning to improve prediction and understanding of complex environmental systems such as anaerobic digestion.
+
+---
+
 ## Project Overview
+
 Anaerobic digestion is a complex biological process widely used for biogas production from organic waste. However, predicting its performance is difficult due to nonlinear interactions between multiple variables.
 
 This project applies machine learning techniques to model and predict biogas production from brewery waste, improving understanding and potential optimization of the process.
@@ -27,6 +32,7 @@ The dataset was built from experimental data on anaerobic digestion of brewery r
 - Wastewater  
 
 ### Input Variables
+
 - Total Solids (TS)  
 - Volatile Solids (VS)  
 - Chemical Oxygen Demand (COD)  
@@ -38,6 +44,7 @@ The dataset was built from experimental data on anaerobic digestion of brewery r
 - Inoculum type and source  
 
 ### Target Variables
+
 - Biogas production (mL/g VS)  
 - VS removal (%)  
 - Methane content (%)  
@@ -69,19 +76,20 @@ The dataset was built from experimental data on anaerobic digestion of brewery r
 After hyperparameter tuning, the models achieved:
 
 ### Biogas production
-- R² ≈ 0.75
-- RMSE ≈ 97.44
-- MAE ≈ 61.03
+- R² ≈ 0.75  
+- RMSE ≈ 97.44  
+- MAE ≈ 61.03  
 
 ### VS removal
-- R² ≈ 0.60
-- RMSE ≈ 11.00
-- MAE ≈ 6.88
+- R² ≈ 0.60  
+- RMSE ≈ 11.00  
+- MAE ≈ 6.88  
 
 ### Methane content
-- R² ≈ 0.68
-- RMSE ≈ 5.02
-- MAE ≈ 2.91
+- R² ≈ 0.68  
+- RMSE ≈ 5.02  
+- MAE ≈ 2.91  
+
 ---
 
 ## Model Interpretability
@@ -92,9 +100,34 @@ To better understand model behavior:
 - SHAP (SHapley Additive exPlanations) was applied  
 
 ### Key Insights
+
 - Biogas production is strongly influenced by substrate composition and operational conditions  
 - Some variables have nonlinear and interacting effects  
 - Machine learning helps uncover relationships not captured by traditional methods  
+
+---
+
+## Visualization
+
+The following analyses were performed:
+
+- Predicted vs actual biogas production  
+- Feature importance from Random Forest  
+- SHAP summary plots  
+
+These visualizations help understand model performance and key influencing variables.
+
+---
+
+## Skills Demonstrated
+
+- Machine Learning (Random Forest)  
+- Data preprocessing and cleaning  
+- Feature selection and engineering  
+- Model training and evaluation  
+- Hyperparameter tuning (GridSearchCV)  
+- Environmental data analysis  
+- Model interpretability (SHAP)  
 
 ---
 
@@ -106,6 +139,21 @@ To better understand model behavior:
 - Random Forest  
 - SHAP  
 - Google Colab  
+
+---
+
+## How to Run
+
+1. Open the Jupyter Notebook:
+   `biogas_prediction_model.ipynb`
+
+2. Install required libraries:
+   - pandas  
+   - numpy  
+   - scikit-learn  
+   - shap  
+
+3. Run all cells to reproduce the results  
 
 ---
 
@@ -128,40 +176,11 @@ The approach provides a valuable tool for:
 - Performance prediction  
 - Decision-making in waste-to-energy applications  
 
-  ---
+---
 
 ## Future Work
 
 - Expand dataset size and diversity  
 - Test alternative machine learning models  
 - Develop real-time prediction tools  
-- Apply models to industrial-scale systems
-
----
-
-## How to Run
-
-1. Open the Jupyter Notebook:
-   `BioGas_Predictor_v1_1.ipynb`
-
-2. Install required libraries:
-   - pandas
-   - numpy
-   - scikit-learn
-   - shap
-
-3. Run all cells to reproduce the results
-
----
-
-## Skills Demonstrated
-
-- Machine Learning (Random Forest)
-- Data preprocessing and cleaning
-- Feature selection and engineering
-- Model training and evaluation
-- Hyperparameter tuning (GridSearchCV)
-- Environmental data analysis
-- Model interpretability (SHAP)
-
----
+- Apply models to industrial-scale systems  
