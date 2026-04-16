@@ -153,3 +153,15 @@ The approach provides a valuable tool for:
 3. Run all cells to reproduce the results
 
 ---
+
+## Skills Demonstrated
+
+- Machine Learning (Random Forest)
+- Data preprocessing and cleaning
+- Feature selection and engineering
+- Model training and evaluation
+- Hyperparameter tuning (GridSearchCV)
+- Environmental data analysis
+- Model interpretability (SHAP)
+
+---
