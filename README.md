@@ -128,11 +128,28 @@ The approach provides a valuable tool for:
 - Performance prediction  
 - Decision-making in waste-to-energy applications  
 
----
+  ---
 
 ## Future Work
 
 - Expand dataset size and diversity  
 - Test alternative machine learning models  
 - Develop real-time prediction tools  
-- Apply models to industrial-scale systems  
+- Apply models to industrial-scale systems
+
+---
+
+## How to Run
+
+1. Open the Jupyter Notebook:
+   `BioGas_Predictor_v1_1.ipynb`
+
+2. Install required libraries:
+   - pandas
+   - numpy
+   - scikit-learn
+   - shap
+
+3. Run all cells to reproduce the results
+
+---
