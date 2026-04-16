@@ -66,25 +66,22 @@ The dataset was built from experimental data on anaerobic digestion of brewery r
 
 ## Results
 
-## Results
-
 After hyperparameter tuning, the models achieved:
 
-- Biogas production:
-  - R² = 0.75
-  - RMSE = 97.44
-  - MAE = 61.03
+### Biogas production
+- R² ≈ 0.75
+- RMSE ≈ 97.44
+- MAE ≈ 61.03
 
-- VS removal:
-  - R² = 0.60
-  - RMSE = 11.00
-  - MAE = 6.88
+### VS removal
+- R² ≈ 0.60
+- RMSE ≈ 11.00
+- MAE ≈ 6.88
 
-- Methane content:
-  - R² ≈ 0.68
-  - RMSE ≈ 5.02
-  - MAE ≈ 2.91
-
+### Methane content
+- R² ≈ 0.68
+- RMSE ≈ 5.02
+- MAE ≈ 2.91
 ---
 
 ## Model Interpretability
